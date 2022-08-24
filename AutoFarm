@@ -13,6 +13,6 @@ local A_2 = Vector3.new(-38.909706115722656, 102.36107635498047, 382.61791992187
 local A_3 = game:GetService("Players").FoolHardy111.PlayerGui.HUD.Troops.Tower5
 local Event = game:GetService("ReplicatedStorage").PlaceTower
 Event:FireServer(A_1, A_2, A_3)
-
-end
 wait(1)
+end
+
