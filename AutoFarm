@@ -1,0 +1,18 @@
+if game.PlaceId == 7215261025 then
+game:GetService("TeleportService"):Teleport(8564247699)
+end
+
+while true do
+
+local A_2 = "Easy"
+local Event = game:GetService("ReplicatedStorage").AddVote
+Event:FireServer(A_2)
+
+local A_1 = "John"
+local A_2 = Vector3.new(-38.909706115722656, 102.36107635498047, 382.617919921875)
+local A_3 = game:GetService("Players").FoolHardy111.PlayerGui.HUD.Troops.Tower5
+local Event = game:GetService("ReplicatedStorage").PlaceTower
+Event:FireServer(A_1, A_2, A_3)
+
+end
+wait(1)
